@@ -8,8 +8,8 @@ test('Greet renders correctly', () => {
 })
 
 test('Greet renders with a name', () => {
-    render(<Greet name='Jagadeesh'/>)
-    const textElement = screen.getByText('Hello Jagadeesh')
+    render(<Greet name='Jagadesh'/>)
+    const textElement = screen.getByText('Hello Jagadesh')
     expect(textElement).toBeInTheDocument()
 
 })
